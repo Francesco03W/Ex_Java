@@ -18,5 +18,5 @@ public class Counter
 	public int getValue() {return val;}
 	public String toString() {return "valore: "+val;}
     public void copy(Counter x) {val=x.val;}
-	public Boolean equals(Counter x) {return val==x.val;}
+	public boolean equals(Counter x) {return val==x.val;}
 }

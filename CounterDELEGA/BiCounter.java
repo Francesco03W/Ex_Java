@@ -10,7 +10,7 @@ public class BiCounter
 	public void inc() {C.inc();}
 	public void copy(BiCounter x) {C.copy(x.C);}
 	public String toString() {return C.toString();}
-	public Boolean equals(BiCounter x) {return C.equals(x.C);}
+	public boolean equals(BiCounter x) {return C.equals(x.C);}
 	public void dec() {
 		int nprec=C.getValue()-1;
 		C.reset();
